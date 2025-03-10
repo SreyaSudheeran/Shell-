@@ -1,0 +1,12 @@
++ addition 
+- subtraction
+* multiplication
+/ Division
+% Modulus
+++ Increment
+-- Decrement
+-lt less than
+-gt greater than
+-eq equal
+-ne not equal
+
