@@ -1,0 +1,2 @@
+sreya    seat0        2025-03-19 10:35 (login screen)
+sreya    tty2         2025-03-19 10:35 (tty2)

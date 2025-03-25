@@ -1,0 +1,8 @@
+Dependency (Teacher to Library)
+
+    A Teacher depends on Library.
+    This is a weaker relationship.
+    The Teacher class likely uses Library objects, but the lifecycle of Library is not tied to the Teacher.
+    This could be, for example, a method in the Teacher class that takes a Library as a parameter.
+
+

@@ -1,0 +1,4 @@
+2024-03-25 INFO Server started
+2024-03-25 ERROR Database connection failed
+2024-03-25 DEBUG Cache cleared
+2024-03-25 ERROR Disk space low
