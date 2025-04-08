@@ -1,0 +1,60 @@
+Question 1
+>> mkdir 
+>> cd
+>> // Write something in it
+>> git init
+>> git add .
+>> git commit -m "First commit"
+>> //make some changes
+>> git diff
+>> mkdir another folder
+>> cd
+>> git clone "First folder path"
+
+Question 2
+// create a new branch
+>> git branch vrr1
+>> git checkout vrr11	
+>> // make some changes
+>> git add .
+>> git commit -m "First commit on vrr1"
+>> git branch vrr2
+>> git checkout vrr2
+>> // make some changes
+>> git add .
+>> git commit -m "First commit on vrr2"
+>> git branch vrr1 //branch in which other branch will merge
+>> git merge vrr2 (// merging branch) -m "MEssage"
+
+Question 3
+//create new issue
+>> gh issue create --title "Hello" --body "This is temporary issue"
+// to create and assign issue
+>> gh issue create --title "Hello" --body "This is temporary issue" --assignee rembalevaishnavi
+// to add assignee
+>> gh issue edit 3 --add-assignee user1,user2
+// to create pull request
+>> git checkout branch
+>> git add .
+>> git commit -m "vrr"
+>> git push origin branch
+>> gh pr create --base main --head branch --title "HEllo" --body "comment"
+// to merge a pr
+>> gh pr list
+>> gh pr merge 4 OR
+>> gh pr merge 4 --merge --delete-branch
+
+
+
+```bash
+git checkout -b vrr1
+git add .
+git commit -m "First commit on vrr1"
+
+git checkout -b vrr2
+git add .
+git commit -m "First commit on vrr2"
+
+git checkout vrr1
+git merge vrr2 -m "Merging vrr2 into vrr1"
+```
